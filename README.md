@@ -28,3 +28,32 @@
     <a href="https://nftdocket.vercel.app/">View Live</a>
   </p>
 </p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+      </ul>
+        <li><a href="#built-with">Built With</a></li>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#running-the-project">Running the project</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#block-diagram">Block Diagram</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#future-scope">Future Scope</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+The majority of today's centralised creator platforms deduct a sizable portion of the money producers are paid, consequently decreasing their profitability. To address this issue, we developed a decentralised subscription-based streaming service that allows users to access the material of their favourite creators by purchasing an exclusive NFT and paying a monthly membership fee.
