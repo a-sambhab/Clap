@@ -65,7 +65,7 @@ Following technologies and libraries are used for the development of this websit
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [Solidity](https://docs.soliditylang.org/)
-- [Livepeer](https://docs.soliditylang.org/](https://livepeer.org)
+- [Livepeer](https://livepeer.org)
 - [Node](https://nodejs.org/en/)
 - [Superfluid](https://www.superfluid.finance)
 - [Alchemy](https://www.alchemy.com)
