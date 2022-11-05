@@ -175,12 +175,9 @@ The administration of payments has frequently caused problems. We can stream and
 
 ## Future Scope
 
-* We can implement this in a Mobile Application to further increase the accessibility and use cases multifolds.
-* As, we are using Soulbound NFTs in the application this can also be used to issue certificates that are issued uniquely such as Degrees, Tickets, Citizenship and much more.
-* We can implement a Gamification in this platform in which every issued warranty NFT transfers some credits to the Seller which can later be redeemed on the same platform using different schemes. These credits can also be used as gas fees for issuing NFT Warranties by the sellers which will promote more and more businesses to implement the NFT Warranty system in their systems.
-* We can implement a marketplace to make the process truly one click. 
-* We can use the history tracking functionality to keep a track of sale which can be used in products like cars that frequently change hands.
-* As the marketplace is implemented we can also add the functionality of sending the NFT on the buyer’s mobile phone as a notification.
+* We will create and use our own token in place of Superfluid to lessen its dependence and multiply revenue tenfold.
+* A content developer is the best person to understand their target consumers and subjects. Along with the money, we will provide creators complete control over the platform that hosts their platform. We'll also provide users thethe  option to modify their platforms to suit their needs.
+
 
 ## Contributors
 
