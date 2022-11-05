@@ -188,7 +188,7 @@ Once a warranty is activated by a owner in their dashboard the warranty also sho
 
 ## Contributors
 
-Kudos to the team for bringing up this new generation WEB 3 digital platform !! ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Kudos to the team for bringing up this new generation WEB 3.0 digital platform !! ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
