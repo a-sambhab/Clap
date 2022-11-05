@@ -196,7 +196,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/a-sambhab"><img src="https://avatars.githubusercontent.com/u/84642011?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sai Sambhab Chaini</b></sub></a><br /><a href="https://github.com/a-sambhab/Relay/commits?author=a-sambhab" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/gouravmohanty7070"><img src="https://avatars.githubusercontent.com/u/77116228?s=400&u=209df5db5bf2b2f895f130120ec14004949e76c0&v=4" width="100px;" alt=""/><br /><sub><b>Akash Sahu</b></sub></a><br /><a href="https://github.com/a-sambhab/Relay/commits?author=gouravmohanty7070" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gouravmohanty7070"><img src="https://avatars.githubusercontent.com/u/77116228?s=400&u=209df5db5bf2b2f895f130120ec14004949e76c0&v=4" width="100px;" alt=""/><br /><sub><b>Gourav Mohanty</b></sub></a><br /><a href="https://github.com/a-sambhab/Relay/commits?author=gouravmohanty7070" title="Code">💻</a></td>
   </tr>
 </table>
 
