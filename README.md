@@ -23,7 +23,7 @@
   <h3 align="center">NFTDocket</h3>
 
   <p align="center">
-    The official repository for the website of NFTDocket
+    The official repository for the website of RELAY
     <br />
     <a href="https://nftdocket.vercel.app/">View Live</a>
   </p>
