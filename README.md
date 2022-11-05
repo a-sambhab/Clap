@@ -57,3 +57,17 @@
 ## About The Project
 
 The majority of today's centralised creator platforms deduct a sizable portion of the money producers are paid, consequently decreasing their profitability. To address this issue, we developed a decentralised subscription-based streaming service that allows users to access the material of their favourite creators by purchasing an exclusive NFT and paying a monthly membership fee.
+
+## Built With
+
+Following technologies and libraries are used for the development of this website
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Solidity](https://docs.soliditylang.org/)
+- [Livepeer](https://docs.soliditylang.org/](https://livepeer.org)
+- [Node](https://nodejs.org/en/)
+- [Superfluid](https://www.superfluid.finance)
+- [Alchemy](https://www.alchemy.com)
+- [Truffle Suite](https://trufflesuite.com)
+
