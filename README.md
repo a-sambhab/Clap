@@ -148,25 +148,21 @@ npm install <package-name> --save-dev
 
 ## Features
 
-### Issue Warranty
+### Decentralized subscription-based streaming
 
-Sellers can easily issue warranties by setting Order ID, Buyer Wallet Address and Expiry Date as Metadata for the NFT and issue it as a Pending Warranty. This feature does not need the knowledge of coding. We have also used the concept of Soulbound NFTs by making the Keccak256 Hash of the Owner ID and the Product ID and making it a part of the metadata of the NFT. The seller can also track all the pending, active and expiry warranties issued by him.
+Most centralized creator platforms today take away a huge cut of the pay received by the creators thereby reducing their profits. We have tried to solve this problem by creating a decentralized subscription-based streaming service where audiences can access their favorite creator’s content by buying an exclusive NFT and paying a subscription fee.
 
-### Proof Ownership
+### Livepeer’s decentralized protocol
 
-When the Warranty is sent to the dashboard of the Buyer as a Pending Warranty the Buyer will need to proof it's ownership by hashing their wallet address which is then hashed using the Keccak256 hash and matched with the hash in the Metadata and on successful verification the Warranty is minted in the chain and added to the active warranties section of the Buyer Dashboard which can be used as a Proof of Ownership and as the Warranty till the Expiry Time.
+Transcoding properly for video streaming has become quite expensive in an era where video streaming uses 80% of all Internet bandwidth. But thanks to the decentralised Livepeer protocol, which not only helps to cut costs by up to 50 times but also offers streaming with appropriate transcoding.
 
-### Resell Warranty
+### Alchemy’s NFT API
 
-After the Warranty is added to the Active Warranties of the Buyer, the buyer can transfer ownership as well in case of Resell of the Product in which the Current Owner needs to put in the New Owners Wallet Address after which it is issued using the same hashing method as Soul and then the new owner needs to proof ownership in a similiar process as the previous owner.
+Traditional authentication systems demand a lot of time-consuming steps, such as several logins and 2FAs. Your cryptocurrency wallet serves as both your identity and a one-click process at Mystiq. Additionally, we are grateful for Alchemy's NFT API, which enables us to verify whether a user has the necessary NFT in order to access a Creator's work.
 
-### Auto Expiry
+### SuperFluid's Money Streaming tool
 
-In the case that the current time is greater than the Expiry time of any Product Warranty the Burn Function in the Gelato Ops executes itself which in turn burns the NFT and the Warranty is moved to the Expired Warranty section of the owner. However, the Owner can still use the platform to proof ownership of the product but can not have the benefits of the warranty anymore.
-
-### Track issued and Expired Warranty
-
-Once a warranty is activated by a owner in their dashboard the warranty also shows the history of all it's previous owner which helps in keeping track of the ownership of the product and sale as well.
+The administration of payments has frequently caused problems. We can stream and transfer money easily with a single click thanks to SuperFluid's Money Streaming tool. Additionally, managing your team members and paying them on time might be a hassle and reduce your productivity. We resolve this issue by allocating the money earned by the creator to the members of its team utilising the Instant Distribution method of SuperFluid.
 
 ## Block Diagram
 
