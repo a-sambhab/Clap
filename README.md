@@ -164,15 +164,6 @@ Traditional authentication systems demand a lot of time-consuming steps, such as
 
 The administration of payments has frequently caused problems. We can stream and transfer money easily with a single click thanks to SuperFluid's Money Streaming tool. Additionally, managing your team members and paying them on time might be a hassle and reduce your productivity. We resolve this issue by allocating the money earned by the creator to the members of its team utilising the Instant Distribution method of SuperFluid.
 
-## Block Diagram
-
-<img src="https://res.cloudinary.com/dgy8ybeoy/image/upload/v1659308834/NFTDocket_aeca19.png" alt="Block Diagram" width="100%">
-
-## Screenshots
-
-<img src="https://res.cloudinary.com/dgy8ybeoy/image/upload/v1659309065/Screenshot_2022-08-01_044029_jrfsck.png" alt="Logo" width="100%">
-<img src="https://res.cloudinary.com/doybtqm8h/image/upload/v1659309329/Screenshot_2022-08-01_044226_lqbgml.png" alt="Logo" width="100%">
-
 ## Future Scope
 
 * We will create and use our own token in place of Superfluid to lessen its dependence and multiply revenue tenfold.
