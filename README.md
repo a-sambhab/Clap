@@ -20,10 +20,10 @@
     <img src="https://res.cloudinary.com/divr26z8e/image/upload/v1667665029/nubelson-fernandes-iE71-TMrrkE-unsplash_rctkbn.jpg" alt="Logo" width="80">
   </a>
 
-  <h3 align="center">RELAY</h3>
+  <h3 align="center">CLAP</h3>
 
   <p align="center">
-    The official repository for the website of Relay
+    The official repository for the website of Clap
     <br />
     <a href="https://nftdocket.vercel.app/">View Live</a>
   </p>
