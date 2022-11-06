@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 import VideoPlayer from "react-video-js-player";
 import { useParams } from "react-router-dom";
-import { collection, doc, getDocs } from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 import { db } from "../helpers/Firebase";
 
 function Player(props) {

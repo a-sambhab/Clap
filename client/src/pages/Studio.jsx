@@ -20,7 +20,7 @@ const Studio = () => {
         data.map(creators=>{  
           // console.log(creators);
           console.log(params.id);
-            if(params.id==creators.teamId){
+            if(params.id===creators.teamId){
                 // console.log("creator found")
                 console.log(creators.address, account, String(creators.address).toUpperCase() , String(account.currentAccount).toUpperCase());
                 setCreator(creators);
@@ -53,19 +53,19 @@ const Studio = () => {
           <div className='studiosubscribers'>
             <div className='studiosubscribertitle'>Subscribers</div>
             <div className='subscriber'>
-              <img src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
+              <img alt="subscriberimage"  src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
               <div className='studiosubscribername'>Gourav Mohanty</div>
             </div>
             <div className='subscriber'>
-              <img src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
+              <img alt="subscriberimage" src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
               <div className='studiosubscribername'>Gourav Mohanty</div>
             </div>
             <div className='subscriber'>
-              <img src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
+              <img alt="subscriberimage" src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
               <div className='studiosubscribername'>Gourav Mohanty</div>
             </div>
             <div className='subscriber'>
-              <img src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
+              <img alt="subscriberimage" src='https://res.cloudinary.com/dgy8ybeoy/image/upload/v1667688750/bgimage_lzx160.png' className='subscriberimage'/>
               <div className='studiosubscribername'>Gourav Mohanty</div>
             </div>
           </div>

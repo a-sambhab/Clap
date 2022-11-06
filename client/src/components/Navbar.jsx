@@ -1,8 +1,8 @@
 import React,{useState,useContext,useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
 import { db } from '../helpers/Firebase';
-import { doc, getDocs } from "firebase/firestore";
-import { collection, query, where} from "firebase/firestore";
+import { getDocs } from "firebase/firestore";
+import { collection} from "firebase/firestore";
 import {fUSDCxabi} from "../contracts/fUSDCx";
 import BigNumber from 'bignumber.js';
 import { ethers } from "ethers";
@@ -11,8 +11,8 @@ import Web3Context from "../contexts";
 
 const Navbar = () => {
   const [balance,setBalance] = useState(0);
-    const [creatorName,setName] = useState(null);
-    const [id,setId] = useState(null);
+    // const [creatorName,setName] = useState(null);
+    // const [id,setId] = useState(null);
 
     window.ethereum&&window.ethereum.on('accountsChanged', function (accounts) {
         setTimeout(window.location.reload(false), 1000);
@@ -48,12 +48,12 @@ const Navbar = () => {
     const [isCreator, setisCreator]   = useState(false);
     const [creatordata, setcreatordata] = useState({})
     const fetchCurrentAccount = async()=>{
-        let fid;
+        // let fid;
         const querySnapshot = await getDocs(collection(db, "CBS"));
         // console.log(querySnapshot.docs.map((doc)=> doc.data()));
         const data = querySnapshot.docs.map((doc)=>doc.data());
         // console.log(data);
-        data.map((creators)=>{
+        const how = data.map((creators)=>{
           // console.log(account.currentAccount)
           // console.log(String(creators.address).toUpperCase()===String(account.currentAccount).toUpperCase());
           if(String(creators.address).toUpperCase()===String(account.currentAccount).toUpperCase()){
@@ -61,7 +61,9 @@ const Navbar = () => {
             setisCreator(true);
             setcreatordata(creators)
           }
+          return true;
         })
+        console.log(how);
      };
   return (
     <>
