@@ -165,7 +165,7 @@ The administration of payments has frequently caused problems. We can stream and
 ## Future Scope
 
 * We will create and use our own token in place of Superfluid to lessen its dependence and multiply revenue tenfold.
-* A content developer is the best person to understand their target consumers and subjects. Along with the money, we will provide creators complete control over the platform that hosts their platform. We'll also provide users thethe  option to modify their platforms to suit their needs.
+* A content developer is the best person to understand their target consumers and subjects. Along with the money, we will provide creators complete control over the platform that hosts their platform. We'll also provide users with the option to customize their platforms to suit their needs.
 
 
 ## Contributors
