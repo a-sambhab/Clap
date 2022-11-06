@@ -47,7 +47,7 @@ const Upload = () => {
     <div className="uploadright">
 
       {videoList.map((url) => {
-        return <iframe src={url}></iframe>;
+        return <iframe title='preview' src={url}></iframe>;
       })}
     </div>
     </div>

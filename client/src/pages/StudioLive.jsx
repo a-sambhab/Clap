@@ -2,6 +2,7 @@ import React , {useState, useEffect} from 'react'
 import {fetchData} from "../helpers/livepeer"
 import { useParams } from 'react-router-dom';
 import { collection, getDocs,query,where,updateDoc,doc } from 'firebase/firestore';
+import VideoPlayer from "react-video-js-player";
 import { db } from '../helpers/Firebase';
 
 const StudioLive = () => {
@@ -80,7 +81,13 @@ const StudioLive = () => {
       </>
       }
       </div>
+      {dat[0] && dat[0].live?
+        <div>
+        {dat[0] && dat[0].playbackId && <VideoPlayer src={`https://cdn.livepeer.com/hls/${dat[0].playbackId}/index.m3u8`} width="720" height="420"></VideoPlayer>}
+      </div>
+      :
       <div className='w-1/2 h-full text-center flex justify-center items-center liveright'><div>Fetching Live Preview</div></div>
+      }
     </div>
     )
 }

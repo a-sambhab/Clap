@@ -1,5 +1,5 @@
 import React, {useState, useEffect,useContext} from 'react';
-import { Link, useParams } from 'react-router-dom'
+import {  useParams } from 'react-router-dom'
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../helpers/Firebase';
 import Web3Context from '../contexts';
@@ -17,15 +17,16 @@ const Subscribe = () => {
         // console.log(params.id);
         const data = querySnapshot.docs.map(doc=>doc.data());
         console.log(data);
-        data.map(creators=>{
+        const how = data.map(creators=>{
             console.log(creators.teamId)
-            if(params.id==creators.teamId){
+            if(params.id===creators.teamId){
                 console.log("creator found")
                 setCreator(creators);
             }
-            
+            return true;
             // console.log(creator);
         })
+        console.log(how);
     }
     useEffect(() => {
       getCreator();
@@ -47,7 +48,7 @@ const Subscribe = () => {
   return (
     <div className='subscribecontain'>
     <div className='subscribeleft'>
-        <img className='subscribeleftimage' src={`${creator.image}`}/>
+        <img className='subscribeleftimage' alt="creatorimage" src={`${creator.image}`}/>
         <div className='subscribebuttonborder'>
         <button className='subscribebutton' onClick={mint}>
             Subscribe ${creator.price}/month
