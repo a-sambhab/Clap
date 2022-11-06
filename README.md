@@ -1,3 +1,6 @@
+<h1>TEAM NETBOTNET: HACK-CBS 5.0 </h1>
+
+
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
@@ -20,10 +23,10 @@
     <img src="https://res.cloudinary.com/divr26z8e/image/upload/v1667665029/nubelson-fernandes-iE71-TMrrkE-unsplash_rctkbn.jpg" alt="Logo" width="80">
   </a>
 
-  <h3 align="center">RELAY</h3>
+  <h3 align="center">CLAP</h3>
 
   <p align="center">
-    The official repository for the website of Relay
+    The official repository for the website of Clap
     <br />
     <a href="https://nftdocket.vercel.app/">View Live</a>
   </p>
@@ -47,8 +50,6 @@
       </ul>
     </li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#block-diagram">Block Diagram</a></li>
-    <li><a href="#screenshots">Screenshots</a></li>
       <li><a href="#future-scope">Future Scope</a></li>
     <li><a href="#contributors">Contributors</a></li>
   </ol>
@@ -164,23 +165,11 @@ Traditional authentication systems demand a lot of time-consuming steps, such as
 
 The administration of payments has frequently caused problems. We can stream and transfer money easily with a single click thanks to SuperFluid's Money Streaming tool. Additionally, managing your team members and paying them on time might be a hassle and reduce your productivity. We resolve this issue by allocating the money earned by the creator to the members of its team utilising the Instant Distribution method of SuperFluid.
 
-## Block Diagram
-
-<img src="https://res.cloudinary.com/dgy8ybeoy/image/upload/v1659308834/NFTDocket_aeca19.png" alt="Block Diagram" width="100%">
-
-## Screenshots
-
-<img src="https://res.cloudinary.com/dgy8ybeoy/image/upload/v1659309065/Screenshot_2022-08-01_044029_jrfsck.png" alt="Logo" width="100%">
-<img src="https://res.cloudinary.com/doybtqm8h/image/upload/v1659309329/Screenshot_2022-08-01_044226_lqbgml.png" alt="Logo" width="100%">
-
 ## Future Scope
 
-* We can implement this in a Mobile Application to further increase the accessibility and use cases multifolds.
-* As, we are using Soulbound NFTs in the application this can also be used to issue certificates that are issued uniquely such as Degrees, Tickets, Citizenship and much more.
-* We can implement a Gamification in this platform in which every issued warranty NFT transfers some credits to the Seller which can later be redeemed on the same platform using different schemes. These credits can also be used as gas fees for issuing NFT Warranties by the sellers which will promote more and more businesses to implement the NFT Warranty system in their systems.
-* We can implement a marketplace to make the process truly one click. 
-* We can use the history tracking functionality to keep a track of sale which can be used in products like cars that frequently change hands.
-* As the marketplace is implemented we can also add the functionality of sending the NFT on the buyer’s mobile phone as a notification.
+* We will create and use our own token in place of Superfluid to lessen its dependence and multiply revenue tenfold.
+* A content developer is the best person to understand their target consumers and subjects. Along with the money, we will provide creators complete control over the platform that hosts their platform. We'll also provide users with the option to customize their platforms to suit their needs.
+
 
 ## Contributors
 
